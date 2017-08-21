@@ -1,0 +1,340 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+
+body{
+	font-family:'Source Sans Pro', sans-serif;
+	font-size:16px;
+	color:#444;
+	font-weight:300;
+}
+
+.color{
+	color:#e84545 !important;
+}
+
+/************************************************************************
+NAV CSS -------- Background css ------------- bg content css
+************************************************************************/
+.banner{
+	background-image:url(../images/banner.jpg);
+	height:730px;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border: none;
+	padding:1em;
+	border-radius:0px;
+}
+
+.navbar-inverse .navbar-collapse{
+	border-bottom:1px solid #66687c;
+}
+
+.navbar-brand{
+	height:75px;
+}
+
+.navbar-right{
+	margin-top:11px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	font-weight:700;
+	text-transform:uppercase;
+	font-size:14px;
+	line-height:10px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: #e84545;
+	border-radius:2px;
+}
+
+nav.affix {
+    position: fixed;
+    right: 0;
+    left: 0;
+	top:0;
+    z-index: 1030;
+	background-color:#313454;
+}
+
+nav.affix .navbar-collapse{
+	border-bottom:none;
+}
+
+nav.affix .navbar-brand{
+	height:45px;
+	padding:5px 15px;
+}
+
+nav.affix .navbar-right{
+	margin-top:0px;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+
+.banner-header{
+	margin:4em 0;
+	text-align:center;
+}
+
+.banner-header > h1{
+	font-size:4em;
+	text-transform:uppercase;
+	font-weight:900;
+	color:#fff;
+}
+
+.banner-header > p{
+	font-size:24px;
+	margin-bottom:3em;
+	font-weight:300;
+	color:#c5c5c4;	
+}
+
+.btn-orange{
+	background-color:#e84545;
+	text-transform:uppercase;
+	color: #fff;
+	font-weight: 400;
+	padding: 10px 30px;
+	font-weight: 500;
+	letter-spacing: 1px;	
+}
+
+.btn-orange:hover,.btn-orange:focus{
+	background-color: #d43f3f;
+	color:#fff;	
+}
+
+/************************************************************************
+Features CSS
+************************************************************************/
+
+.section{
+	padding:4em 0em;
+}
+
+.features{
+	position:relative;
+	padding:2em 10px;
+	text-align:center;
+}
+
+.features > span.icon{
+	font-size:4em;
+	color:#e84545;
+}
+
+.features > h4{
+	color:#444;
+	margin:15px 0px;
+	font-weight:900;
+	text-transform:uppercase;
+}
+
+/************************************************************************
+Work CSS
+***********************************************************************/
+.no-gutter{
+	padding:1px;
+}
+
+.image-box{
+	height:350px;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	padding:0;
+	margin:0;
+}
+
+.image {
+	width:100%;
+  	height:100%;
+	background-position:center;
+	transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+} 
+
+.image-box .image:hover {
+	-moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+} 
+
+
+
+/************************************************************************
+Teams CSS
+************************************************************************/
+.team{
+	padding-top:1em !important;
+	padding-bottom:1em !important;
+}
+
+.x_team{;
+	position:relative;
+}
+
+.x_team ul li{
+	padding-right:0px;
+	padding-left:0px;
+}
+
+.x_team ul li  a{
+	border: 1px solid #e8ecee;
+	border-radius: 2px;
+    color: #c6cacc;
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 40px;
+}
+
+.x_team ul li  a:hover,.x_team ul li  a:focus{
+	background-color:#e84545;
+	border-color:#e84545;
+	color:#fff;
+	text-decoration:none;
+	transition:all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.wrapper{
+	padding:2em 0em;
+	text-align:center;
+}
+
+.wrapper > p{
+	font-size:28px;
+}
+
+.wrapper > h6{
+	font-size:14px;
+	text-transform:uppercase;
+	margin-bottom:4em;
+	font-weight:600;	
+}
+
+/**********************************************
+Testimonials
+**********************************************/
+#testimonials{
+	background-image:url(../images/testimonials.jpg);
+	background-size:cover;
+}
+
+.review{
+	border-radius:5px;
+	padding:2em;
+	color:#fff;
+	text-align:center;
+}
+
+.review > .review-img {
+	width:70px;
+	height:70px;
+	overflow:hidden;
+	border-radius:35px;
+	text-align:center;
+	margin:20px auto;
+	border:3px solid #fff;
+}
+/**********************************************
+Footer
+**********************************************/
+
+.footer{
+	background-color:#3a3e64;
+	padding:4em 0;
+	text-align:center;
+	color:#fff;
+}
+
+.footer h6{
+	text-transform:uppercase;
+	font-size:16px;
+	font-weight:700;
+	margin-bottom:20px;
+}
+
+.footer p{
+	color: rgba(255, 255, 255, 0.5);
+	font-weight:500;	
+}
+
+.social-widgets ul{
+	text-align:center;
+	list-style:none;
+	padding-left:0px;
+}
+
+.social-widgets ul li{
+	display:inline-block;
+}
+
+.social-widgets ul li  a{
+	border: 2px solid #fff;
+	border-radius: 2px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 36px;
+    margin-bottom: 5px;
+	margin-right:5px;
+    text-align: center;
+    width: 40px;
+}
+
+.social-widgets ul li  a:hover,.social-widgets ul li  a:focus{
+	background-color:#e84545;
+	border-color:#e84545;
+	color:#fff;
+	text-decoration:none;
+	transition:all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.footer-info{
+	background-color:#313454;
+	padding:20px 0px;
+}
+
+.footer-info p{
+	color: rgba(255, 255, 255, 0.5);
+	font-weight:500;
+	text-align:center;
+	margin-bottom:0px;	
+}
+
+.footer-info p span{
+	color: #fff;	
+}
+

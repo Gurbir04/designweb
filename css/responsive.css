@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 768px) and (max-width: 980px){
+    .navbar > .container{
+		width:100%;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+  /*your CSS Rules*/ 
+}
+@media only screen and (max-width: 768px) {
+   .navbar-inverse{
+	  background-color:#313454 !important;
+	  position: absolute;
+		top: 0px;
+		left: 0;
+		right: 0;
+		z-index: 10;
+   }
+   .navbar-brand{
+	   height:45px;
+   }
+   .navbar-inverse .navbar-collapse {
+    border-bottom: none;
+	}
+  .navbar-inverse .navbar-toggle{
+	  border-color: transparent;
+	  padding:15px 0px;
+  }
+  .navbar-inverse .navbar-toggle .icon-bar{
+	  background-color:#e84545;
+  }
+  .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	  background-color:transparent;  
+  }
+  .navbar-inverse .navbar-nav > li > a {
+  	margin:10px 0px;
+  }
+  .affix .navbar-toggle{
+	  padding:5px 0px;
+	  transition: 0.8s;
+     -webkit-transition:  0.8s;
+  }
+  .col-center-block{
+	  float:none;
+	  text-align:center;
+  }
+  .banner-header{
+	  margin:12em 0;
+  }
+  .team{
+	  width:300px;
+	  display:inline-block;
+  }
+  .footer-addr,.social-widgets,.about{
+	  margin-top:2em;
+  }
+}  
+
+@media only screen and (max-width: 640px) {
+  .banner-header > h1{
+	  font-size:2.5em;
+  }
+  .banner-header > p{
+	  font-size:22px;
+  }
+}     
+
+@media only screen and (max-width: 480px) {
+  /*your CSS Rules*/     
+}
+
+@media only screen and (max-width: 320px) {
+      /*your CSS Rules*/     
+}
+
+
+
